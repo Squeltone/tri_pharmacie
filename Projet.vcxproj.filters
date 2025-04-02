@@ -37,9 +37,6 @@
     <ClCompile Include="MainWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bdd.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DatabaseManager.h">
@@ -48,6 +45,54 @@
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Accueil.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MédicamentsAjouter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MédicamentsMenu.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MédicamentsModifier.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MédicamentsSupprimer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BDDConsulter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BDDCreer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BDDMenu.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BDDRestaurer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BDDSauvegarder.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BDDSupprimer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CommandesCreer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CommandesMenu.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CommandesModifier.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CommandeSupprimer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CommandesConsulter.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

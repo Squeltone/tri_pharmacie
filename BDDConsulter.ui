@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>FenetreBDDConsulter</class>
+ <widget class="QMainWindow" name="FenetreBDDConsulter">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>799</width>
-    <height>599</height>
+    <width>800</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>PharmacieManager - Médicaments</string>
+   <string>PharmacieManager - Base de données</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QLabel" name="Bienvenue">
+     <widget class="QLabel" name="Menu">
       <property name="font">
        <font>
         <pointsize>42</pointsize>
@@ -24,7 +24,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Menu Médicaments</string>
+       <string>Consulter la base de données</string>
       </property>
       <property name="textFormat">
        <enum>Qt::TextFormat::AutoText</enum>
@@ -41,59 +41,52 @@
      </widget>
     </item>
     <item>
-     <widget class="QLabel" name="QueFaire">
+     <widget class="QLabel" name="ConsulterInfo">
       <property name="font">
        <font>
-        <pointsize>25</pointsize>
+        <pointsize>14</pointsize>
        </font>
       </property>
       <property name="text">
-       <string>Que voulez-vous faire ?</string>
+       <string>Que recherchez vous ?</string>
       </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextInteractionFlag::NoTextInteraction</set>
       </property>
      </widget>
     </item>
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QPushButton" name="Medicaments">
-        <property name="font">
-         <font>
-          <pointsize>14</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>Ajouter un médicament</string>
+       <widget class="QLineEdit" name="Recherche">
+        <property name="placeholderText">
+         <string>médicaments, disponibilité, catégorie, ...</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="Medicaments_2">
+       <widget class="QCheckBox" name="Stock">
         <property name="font">
          <font>
           <pointsize>14</pointsize>
          </font>
         </property>
         <property name="text">
-         <string>Modifier un médicament</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="Medicaments_3">
-        <property name="font">
-         <font>
-          <pointsize>14</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>Supprimer un médicament</string>
+         <string>N'afficher que les médicaments en stock</string>
         </property>
        </widget>
       </item>
      </layout>
+    </item>
+    <item>
+     <widget class="QTableView" name="BDD">
+      <property name="editTriggers">
+       <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
+      </property>
+     </widget>
     </item>
     <item>
      <widget class="QPushButton" name="Quitter">
@@ -110,11 +103,6 @@
    </layout>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionQuitter">
-   <property name="text">
-    <string>Quitter</string>
-   </property>
-  </action>
  </widget>
  <resources/>
  <connections/>

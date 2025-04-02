@@ -102,16 +102,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MainWindow.cpp" />
-    <ClCompile Include="bdd.cpp">
-      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
-      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(Filename).moc</QtMocFileName>
-      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
-      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(Filename).moc</QtMocFileName>
-    </ClCompile>
     <QtRcc Include="Projet.qrc" />
+    <QtUic Include="Accueil.ui" />
+    <QtUic Include="BDDConsulter.ui" />
+    <QtUic Include="BDDCreer.ui" />
+    <QtUic Include="BDDMenu.ui" />
+    <QtUic Include="BDDRestaurer.ui" />
+    <QtUic Include="BDDSauvegarder.ui" />
+    <QtUic Include="BDDSupprimer.ui" />
+    <QtUic Include="CommandesConsulter.ui" />
+    <QtUic Include="CommandesCreer.ui" />
+    <QtUic Include="CommandesMenu.ui" />
+    <QtUic Include="CommandesModifier.ui" />
+    <QtUic Include="CommandeSupprimer.ui" />
     <QtUic Include="MainWindow.ui" />
     <ClCompile Include="DatabaseManager.cpp" />
     <ClCompile Include="main.cpp" />
+    <QtUic Include="MédicamentsAjouter.ui" />
+    <QtUic Include="MédicamentsMenu.ui" />
+    <QtUic Include="MédicamentsModifier.ui" />
+    <QtUic Include="MédicamentsSupprimer.ui" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DatabaseManager.h" />
