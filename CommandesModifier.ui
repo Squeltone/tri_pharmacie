@@ -16,7 +16,7 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QLabel" name="SupprimerCommandes">
+     <widget class="QLabel" name="ModifierCommande">
       <property name="font">
        <font>
         <pointsize>42</pointsize>
@@ -54,7 +54,7 @@
      </spacer>
     </item>
     <item>
-     <widget class="QPushButton" name="Quitter">
+     <widget class="QPushButton" name="CommandeModifierQuitter">
       <property name="font">
        <font>
         <pointsize>15</pointsize>

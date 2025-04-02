@@ -61,7 +61,7 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QLineEdit" name="Recherche">
+       <widget class="QLineEdit" name="BDDConsulterRecherche">
         <property name="placeholderText">
          <string>médicaments, disponibilité, catégorie, ...</string>
         </property>
@@ -82,14 +82,14 @@
      </layout>
     </item>
     <item>
-     <widget class="QTableView" name="BDD">
+     <widget class="QTableView" name="BDDConsulterBDD">
       <property name="editTriggers">
        <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="Quitter">
+     <widget class="QPushButton" name="BDDConsulterQuitter">
       <property name="font">
        <font>
         <pointsize>15</pointsize>

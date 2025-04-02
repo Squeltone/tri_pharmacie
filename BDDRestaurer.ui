@@ -129,7 +129,7 @@
      </layout>
     </item>
     <item>
-     <widget class="QPushButton" name="Restaurer">
+     <widget class="QPushButton" name="BDDRestaurerRestaurer">
       <property name="font">
        <font>
         <pointsize>14</pointsize>
@@ -154,7 +154,7 @@
      </spacer>
     </item>
     <item>
-     <widget class="QPushButton" name="Quitter">
+     <widget class="QPushButton" name="BDDRestaurerQuitter">
       <property name="font">
        <font>
         <pointsize>15</pointsize>

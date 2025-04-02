@@ -76,7 +76,7 @@
      </layout>
     </item>
     <item>
-     <widget class="QPushButton" name="SupprimerMedicament">
+     <widget class="QPushButton" name="SupprimerMedicamentsSupprimerMedicament">
       <property name="font">
        <font>
         <pointsize>14</pointsize>
@@ -101,7 +101,7 @@
      </spacer>
     </item>
     <item>
-     <widget class="QPushButton" name="Quitter">
+     <widget class="QPushButton" name="SupprimerMedicamentsQuitter">
       <property name="font">
        <font>
         <pointsize>15</pointsize>

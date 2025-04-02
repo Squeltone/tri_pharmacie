@@ -71,7 +71,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="NomData"/>
+       <widget class="QLineEdit" name="AjouterMedicamentNomData"/>
       </item>
      </layout>
     </item>
@@ -93,7 +93,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="DescriptionData"/>
+       <widget class="QLineEdit" name="AjouterMedicamentDescriptionData"/>
       </item>
      </layout>
     </item>
@@ -115,7 +115,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="CategorieData"/>
+       <widget class="QLineEdit" name="AjouterMedicamentCategorieData"/>
       </item>
      </layout>
     </item>
@@ -146,7 +146,7 @@
      </layout>
     </item>
     <item>
-     <widget class="QPushButton" name="AjouterMedicament">
+     <widget class="QPushButton" name="AjouterMedicamentAjouterMedicament">
       <property name="font">
        <font>
         <pointsize>14</pointsize>
@@ -171,7 +171,7 @@
      </spacer>
     </item>
     <item>
-     <widget class="QPushButton" name="Quitter">
+     <widget class="QPushButton" name="AjouterMedicamentQuitter">
       <property name="font">
        <font>
         <pointsize>15</pointsize>

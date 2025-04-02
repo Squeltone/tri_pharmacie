@@ -103,7 +103,7 @@
      </widget>
     </item>
     <item>
-     <widget class="QLineEdit" name="Medicaments">
+     <widget class="QLineEdit" name="CommandeCreerMedicaments">
       <property name="placeholderText">
        <string>médicaments</string>
       </property>
@@ -128,14 +128,14 @@
      </widget>
     </item>
     <item>
-     <widget class="QLineEdit" name="Nom">
+     <widget class="QLineEdit" name="CommandeCreerNom">
       <property name="placeholderText">
        <string>nom</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="Commander">
+     <widget class="QPushButton" name="CommandeCreerCommander">
       <property name="font">
        <font>
         <pointsize>15</pointsize>
@@ -160,7 +160,7 @@
      </spacer>
     </item>
     <item>
-     <widget class="QPushButton" name="Quitter">
+     <widget class="QPushButton" name="CommandeCreerQuitter">
       <property name="font">
        <font>
         <pointsize>15</pointsize>

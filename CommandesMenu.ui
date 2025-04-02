@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>FenetreCommandes</class>
- <widget class="QMainWindow" name="FenetreCommandes">
+ <class>FenetreCommandesMenu</class>
+ <widget class="QMainWindow" name="FenetreCommandesMenu">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -60,7 +60,7 @@
       <item>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
-         <widget class="QPushButton" name="Creer">
+         <widget class="QPushButton" name="CommandesMenuCreer">
           <property name="font">
            <font>
             <pointsize>14</pointsize>
@@ -72,7 +72,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="Supprimer">
+         <widget class="QPushButton" name="CommandesMenuSupprimer">
           <property name="font">
            <font>
             <pointsize>14</pointsize>
@@ -86,7 +86,7 @@
        </layout>
       </item>
       <item>
-       <widget class="QPushButton" name="Modifier">
+       <widget class="QPushButton" name="CommandesMenuModifier">
         <property name="font">
          <font>
           <pointsize>14</pointsize>
@@ -98,7 +98,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="Consutler">
+       <widget class="QPushButton" name="CommandesMenuConsutler">
         <property name="font">
          <font>
           <pointsize>14</pointsize>
@@ -112,7 +112,7 @@
      </layout>
     </item>
     <item>
-     <widget class="QPushButton" name="Quitter">
+     <widget class="QPushButton" name="CommandesMenuQuitter">
       <property name="font">
        <font>
         <pointsize>15</pointsize>

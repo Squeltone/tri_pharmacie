@@ -68,7 +68,7 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QRadioButton" name="radioButton_2">
+       <widget class="QRadioButton" name="CommandeConsulterEnAttente">
         <property name="font">
          <font>
           <pointsize>14</pointsize>
@@ -80,7 +80,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="radioButton_3">
+       <widget class="QRadioButton" name="CommandeConsulterEnCours">
         <property name="font">
          <font>
           <pointsize>14</pointsize>
@@ -92,7 +92,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="radioButton">
+       <widget class="QRadioButton" name="CommandeConsulterTerminer">
         <property name="font">
          <font>
           <pointsize>14</pointsize>
@@ -106,14 +106,14 @@
      </layout>
     </item>
     <item>
-     <widget class="QTableView" name="BDD">
+     <widget class="QTableView" name="CommandeConsulterBDD">
       <property name="editTriggers">
        <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="Quitter">
+     <widget class="QPushButton" name="CommandeConsulterQuitter">
       <property name="font">
        <font>
         <pointsize>15</pointsize>

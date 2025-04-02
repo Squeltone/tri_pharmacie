@@ -62,7 +62,7 @@
         <item>
          <layout class="QVBoxLayout" name="verticalLayout">
           <item>
-           <widget class="QPushButton" name="CreerBDD">
+           <widget class="QPushButton" name="BDDCreerBDD">
             <property name="font">
              <font>
               <pointsize>14</pointsize>
@@ -74,7 +74,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="SupprimerBDD">
+           <widget class="QPushButton" name="BDDSupprimerBDD">
             <property name="font">
              <font>
               <pointsize>14</pointsize>
@@ -90,7 +90,7 @@
         <item>
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
-           <widget class="QPushButton" name="SauvegarderBDD">
+           <widget class="QPushButton" name="BDDSauvegarderBDD">
             <property name="font">
              <font>
               <pointsize>14</pointsize>
@@ -102,7 +102,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="RestaurerBDD">
+           <widget class="QPushButton" name="BDDRestaurerBDD">
             <property name="font">
              <font>
               <pointsize>14</pointsize>
@@ -118,7 +118,7 @@
        </layout>
       </item>
       <item>
-       <widget class="QPushButton" name="ConsulterBDD">
+       <widget class="QPushButton" name="BDDConsulterBDD">
         <property name="font">
          <font>
           <pointsize>14</pointsize>
@@ -132,7 +132,7 @@
      </layout>
     </item>
     <item>
-     <widget class="QPushButton" name="Quitter">
+     <widget class="QPushButton" name="BDDQuitter">
       <property name="font">
        <font>
         <pointsize>15</pointsize>
