@@ -71,7 +71,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="SuppressionData"/>
+       <widget class="QLineEdit" name="SupprimerMedicamentsSuppressionData"/>
       </item>
      </layout>
     </item>

@@ -101,7 +101,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Accueil.cpp" />
+    <ClCompile Include="BDDConsulter.cpp" />
     <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="BDDMenu.cpp" />
     <QtRcc Include="Projet.qrc" />
     <QtUic Include="Accueil.ui" />
     <QtUic Include="BDDConsulter.ui" />
@@ -124,7 +127,11 @@
     <QtUic Include="MédicamentsSupprimer.ui" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="BDDMenu.h" />
+    <ClInclude Include="BDDConsulter.h" />
     <ClInclude Include="DatabaseManager.h" />
+    <QtMoc Include="Accueil.h" />
+    <QtMoc Include="Main.h" />
     <QtMoc Include="MainWindow.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

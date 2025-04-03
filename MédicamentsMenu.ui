@@ -58,7 +58,7 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QPushButton" name="MedicamentAjouterMedicament">
+       <widget class="QPushButton" name="MenuMedicamentAjouterMedicament">
         <property name="font">
          <font>
           <pointsize>14</pointsize>
@@ -70,7 +70,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="MedicamentModifierMedicament">
+       <widget class="QPushButton" name="MenuMedicamentModifierMedicament">
         <property name="font">
          <font>
           <pointsize>14</pointsize>
@@ -82,7 +82,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="SupprimerMedicament">
+       <widget class="QPushButton" name="MenuMedicamentSupprimerMedicament">
         <property name="font">
          <font>
           <pointsize>14</pointsize>
@@ -96,7 +96,7 @@
      </layout>
     </item>
     <item>
-     <widget class="QPushButton" name="MedicamentQuitter">
+     <widget class="QPushButton" name="MenuMedicamentQuitter">
       <property name="font">
        <font>
         <pointsize>15</pointsize>
