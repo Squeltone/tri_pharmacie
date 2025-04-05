@@ -97,6 +97,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DatabaseManager.cpp" />
     <ClCompile Include="MedicamentsAjouter.cpp" />
     <ClCompile Include="MedicamentsMenu.cpp" />
     <ClCompile Include="MedicamentsModifier.cpp" />
@@ -181,6 +182,9 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="MedicamentsSupprimer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DatabaseManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
