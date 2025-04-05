@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Projet.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BDDCreer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BDDMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BDDRestaurer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BDDSauvegarder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BDDSupprimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Accueil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BDDConsulter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandesConsulter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandesCreer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandesMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandesModifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandesSupprimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicamentsAjouter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicamentsMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicamentsModifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicamentsSupprimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="BDDSauvegarder.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BDDSupprimer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CommandesConsulter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CommandesCreer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CommandesMenu.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CommandesModifier.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CommandesSupprimer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MedicamentsAjouter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MedicamentsMenu.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MedicamentsModifier.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MedicamentsSupprimer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Accueil.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BDDConsulter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BDDCreer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BDDMenu.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BDDRestaurer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="BDDSauvegarder.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="BDDSupprimer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CommandesConsulter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CommandesCreer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CommandesMenu.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Accueil.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="BDDConsulter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="BDDCreer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="BDDMenu.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="BDDRestaurer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CommandesModifier.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CommandesSupprimer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MedicamentsAjouter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MedicamentsMenu.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MedicamentsModifier.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MedicamentsSupprimer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
